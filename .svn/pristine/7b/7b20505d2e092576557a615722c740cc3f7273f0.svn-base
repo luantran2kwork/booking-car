@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SM.Training.SharedComponent", "SM.Training.SharedComponent\SM.Training.SharedComponent.csproj", "{60729676-693E-40A8-BAB9-04A927E9844B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{7F1C5841-4ECE-4AB4-99E5-4671C6B9D27C}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\SMCB.dll = Lib\SMCB.dll
+		Lib\SMCD.dll = Lib\SMCD.dll
+		Lib\SMCO.dll = Lib\SMCO.dll
+		Lib\SMCOO.dll = Lib\SMCOO.dll
+		Lib\SMCS.dll = Lib\SMCS.dll
+		Lib\SMCSM.dll = Lib\SMCSM.dll
+		Lib\SMCU.dll = Lib\SMCU.dll
+		Lib\SMCW.dll = Lib\SMCW.dll
+		Lib\SMK.dll = Lib\SMK.dll
+		Lib\SMSB.dll = Lib\SMSB.dll
+		Lib\SMSN.dll = Lib\SMSN.dll
+		Lib\SMSR.dll = Lib\SMSR.dll
+		Lib\SMSV.dll = Lib\SMSV.dll
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SM.Training.Utils", "SM.Training.Utils\SM.Training.Utils.csproj", "{AC192445-821F-4851-B23F-B3ABAB499E30}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SM.Training.CommonDao", "SM.Training.CommonDao\SM.Training.CommonDao.csproj", "{ADAF1E24-529A-4BAB-BC09-8F02C6AF9EAC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SM.Training.Api", "SM.Training.Api\SM.Training.Api.csproj", "{2272ED73-E4BF-4CCA-BFAC-B872D4B625BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SM.Training.Sample", "SM.Training.Sample\SM.Training.Sample.csproj", "{AB9C1D15-A276-4259-9A66-22133CA850B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60729676-693E-40A8-BAB9-04A927E9844B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60729676-693E-40A8-BAB9-04A927E9844B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60729676-693E-40A8-BAB9-04A927E9844B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60729676-693E-40A8-BAB9-04A927E9844B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC192445-821F-4851-B23F-B3ABAB499E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC192445-821F-4851-B23F-B3ABAB499E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC192445-821F-4851-B23F-B3ABAB499E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC192445-821F-4851-B23F-B3ABAB499E30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADAF1E24-529A-4BAB-BC09-8F02C6AF9EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADAF1E24-529A-4BAB-BC09-8F02C6AF9EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADAF1E24-529A-4BAB-BC09-8F02C6AF9EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADAF1E24-529A-4BAB-BC09-8F02C6AF9EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2272ED73-E4BF-4CCA-BFAC-B872D4B625BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2272ED73-E4BF-4CCA-BFAC-B872D4B625BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2272ED73-E4BF-4CCA-BFAC-B872D4B625BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2272ED73-E4BF-4CCA-BFAC-B872D4B625BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB9C1D15-A276-4259-9A66-22133CA850B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB9C1D15-A276-4259-9A66-22133CA850B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB9C1D15-A276-4259-9A66-22133CA850B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB9C1D15-A276-4259-9A66-22133CA850B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D1298A6-85B9-445A-84BF-1AE14D0F3BBC}
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN2019 - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

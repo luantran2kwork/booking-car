@@ -1,0 +1,69 @@
+{
+    "expo": {
+        "name": "SM Training",
+        "slug": "SM_Training",
+        "privacy": "public",
+        "platforms": [
+            "ios",
+            "android",
+            "web"
+        ],
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/logo_big.png",
+        "splash": {
+            "image": "./assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "ios": {
+            "supportsTablet": true,
+            "bundleIdentifier": "tpb.flex.valuation",
+            "buildNumber": "1.0",
+            "infoPlist": {
+                "NSCameraUsageDescription": "Sử dụng Camera để chụp ảnh tác nghiệp, hồ sơ xử lý nợ.",
+                "NSLocationWhenInUseUsageDescription": "GENERIC LOCATION MESSAGE",
+                "NSFaceIDUsageDescription": "GENERIC FACEID MESSAGE"
+            },
+            "config": {
+                "googleMapsApiKey": "AIzaSyClDucuuamy9Fgz3OtBu9XoECjXH0T4sXM"
+            }
+        },
+        "android": {
+            "package": "softmart.TPB.localtest",
+            "versionCode": 6,
+            "permissions": [
+                "CAMERA",
+                "READ_INTERNAL_STORAGE",
+                "WRITE_INTERNAL_STORAGE",
+                "READ_EXTERNAL_STORAGE",
+                "WRITE_EXTERNAL_STORAGE",
+                "com.google.android.c2dm.permission.RECEIVE",
+                "VIBRATE",
+                "WAKE_LOCK",
+                "com.google.android.providers.gsf.permission.READ_GSERVICES",
+                "android.permission.INTERNET",
+                "ACCESS_BACKGROUND_LOCATION",
+                "ACCESS_FINE_LOCATION",
+                "USE_BIOMETRIC",
+                "USE_FINGERPRINT"
+            ],
+            "config": {
+                "googleMaps": {
+                    "apiKey": "AIzaSyClDucuuamy9Fgz3OtBu9XoECjXH0T4sXM"
+                } 
+            }
+        },
+        "extra": {
+            "APP_VERSION": "1.0.0.6",
+            "API_HOST_DEV": "https://mobile-api-dinhgia.softmart.net.vn",
+            "API_HOST_PRO": "https://mobile-api-dinhgia.softmart.net.vn"
+        }
+    }
+}

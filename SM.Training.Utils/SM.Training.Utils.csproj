@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Castle.Core-log4net" Version="4.4.0" />
+    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
+    <PackageReference Include="System.Drawing.Common" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SM.Training.SharedComponent\SM.Training.SharedComponent.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SMCD">
+      <HintPath>..\Lib\SMCD.dll</HintPath>
+    </Reference>
+    <Reference Include="SMCO">
+      <HintPath>..\Lib\SMCO.dll</HintPath>
+    </Reference>
+    <Reference Include="SMCU">
+      <HintPath>..\Lib\SMCU.dll</HintPath>
+    </Reference>
+    <Reference Include="SMK">
+      <HintPath>..\Lib\SMK.dll</HintPath>
+    </Reference>
+    <Reference Include="SMSR">
+      <HintPath>..\Lib\SMSR.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

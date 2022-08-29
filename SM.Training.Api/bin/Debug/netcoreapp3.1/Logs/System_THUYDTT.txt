@@ -1,0 +1,109 @@
+﻿2022-08-26 14:03:47,924 [1] DEBUG System - Đọc file cấu hình bắt đầu: D:\Workspace\01.SourceCode_Base\SM.Training.Api\Configuration.xml
+2022-08-26 14:03:47,924 [1] DEBUG System - Đọc file cấu hình bắt đầu: D:\Workspace\01.SourceCode_Base\SM.Training.Api\Configuration.xml
+2022-08-26 14:03:48,125 [1] DEBUG System - Đọc file cấu hình thành công
+2022-08-26 14:03:48,125 [1] DEBUG System - Đọc file cấu hình thành công
+2022-08-26 14:55:35,489 [1] DEBUG System - Đọc file cấu hình bắt đầu: D:\Workspace\01.SourceCode_Base\SM.Training.Api\Configuration.xml
+2022-08-26 14:55:35,489 [1] DEBUG System - Đọc file cấu hình bắt đầu: D:\Workspace\01.SourceCode_Base\SM.Training.Api\Configuration.xml
+2022-08-26 14:55:35,793 [1] DEBUG System - Đọc file cấu hình thành công
+2022-08-26 14:55:35,793 [1] DEBUG System - Đọc file cấu hình thành công
+2022-08-26 17:01:36,892 [1] DEBUG System - Đọc file cấu hình bắt đầu: D:\Workspace\01.SourceCode_Base\SM.Training.Api\Configuration.xml
+2022-08-26 17:01:36,892 [1] DEBUG System - Đọc file cấu hình bắt đầu: D:\Workspace\01.SourceCode_Base\SM.Training.Api\Configuration.xml
+2022-08-26 17:01:37,082 [1] DEBUG System - Đọc file cấu hình thành công
+2022-08-26 17:01:37,082 [1] DEBUG System - Đọc file cấu hình thành công
+2022-08-26 17:04:16,722 [20] ERROR Web - 1348B9A.A285A52
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at SM.Training.Administration.Biz.RoleBiz.SetupDisplay(Int32 roleID) in D:\Workspace\01.SourceCode_Base\SM.Training.Sample\Biz\RoleBiz.cs:line 120
+   at SM.Training.Api.Controllers.RoleController.Post(RoleDTO dtoRequest) in D:\Workspace\01.SourceCode_Base\SM.Training.Api\Controllers\RoleController.cs:line 66
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SM.Training.Api.Common.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\Workspace\01.SourceCode_Base\SM.Training.Api\Common\ErrorHandlingMiddleware.cs:line 23
+2022-08-26 17:13:30,209 [28] ERROR Web - 1348B9A.A364AA1
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at SM.Training.Administration.Biz.RoleBiz.SetupDisplay(Int32 roleID) in D:\Workspace\01.SourceCode_Base\SM.Training.Sample\Biz\RoleBiz.cs:line 120
+   at SM.Training.Api.Controllers.RoleController.Post(RoleDTO dtoRequest) in D:\Workspace\01.SourceCode_Base\SM.Training.Api\Controllers\RoleController.cs:line 66
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SM.Training.Api.Common.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\Workspace\01.SourceCode_Base\SM.Training.Api\Common\ErrorHandlingMiddleware.cs:line 23
+2022-08-26 17:15:54,824 [36] ERROR Web - 1348B9A.A39B807
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at SM.Training.Administration.Biz.RoleBiz.SetupDisplay(Int32 roleID) in D:\Workspace\01.SourceCode_Base\SM.Training.Sample\Biz\RoleBiz.cs:line 120
+   at SM.Training.Api.Controllers.RoleController.Post(RoleDTO dtoRequest) in D:\Workspace\01.SourceCode_Base\SM.Training.Api\Controllers\RoleController.cs:line 66
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SM.Training.Api.Common.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\Workspace\01.SourceCode_Base\SM.Training.Api\Common\ErrorHandlingMiddleware.cs:line 23
+2022-08-26 17:16:57,919 [38] ERROR Web - 1348B9A.A3B4ABE
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at SM.Training.Administration.Biz.RoleBiz.SetupDisplay(Int32 roleID) in D:\Workspace\01.SourceCode_Base\SM.Training.Sample\Biz\RoleBiz.cs:line 120
+   at SM.Training.Api.Controllers.RoleController.Post(RoleDTO dtoRequest) in D:\Workspace\01.SourceCode_Base\SM.Training.Api\Controllers\RoleController.cs:line 66
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SM.Training.Api.Common.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\Workspace\01.SourceCode_Base\SM.Training.Api\Common\ErrorHandlingMiddleware.cs:line 23
+2022-08-26 17:17:56,870 [40] ERROR Web - 1348B9A.A3CCD46
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at SM.Training.Administration.Biz.RoleBiz.SetupDisplay(Int32 roleID) in D:\Workspace\01.SourceCode_Base\SM.Training.Sample\Biz\RoleBiz.cs:line 120
+   at SM.Training.Api.Controllers.RoleController.Post(RoleDTO dtoRequest) in D:\Workspace\01.SourceCode_Base\SM.Training.Api\Controllers\RoleController.cs:line 66
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at SM.Training.Api.Common.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\Workspace\01.SourceCode_Base\SM.Training.Api\Common\ErrorHandlingMiddleware.cs:line 23
+2022-08-26 17:21:07,725 [1] DEBUG System - Đọc file cấu hình bắt đầu: D:\Workspace\01.SourceCode_Base\SM.Training.Api\Configuration.xml
+2022-08-26 17:21:07,725 [1] DEBUG System - Đọc file cấu hình bắt đầu: D:\Workspace\01.SourceCode_Base\SM.Training.Api\Configuration.xml
+2022-08-26 17:21:07,907 [1] DEBUG System - Đọc file cấu hình thành công
+2022-08-26 17:21:07,907 [1] DEBUG System - Đọc file cấu hình thành công
+2022-08-26 18:10:58,655 [1] DEBUG System - Đọc file cấu hình bắt đầu: D:\Workspace\01.SourceCode_Base\SM.Training.Api\Configuration.xml
+2022-08-26 18:10:58,655 [1] DEBUG System - Đọc file cấu hình bắt đầu: D:\Workspace\01.SourceCode_Base\SM.Training.Api\Configuration.xml
+2022-08-26 18:10:58,994 [1] DEBUG System - Đọc file cấu hình thành công
+2022-08-26 18:10:58,994 [1] DEBUG System - Đọc file cấu hình thành công

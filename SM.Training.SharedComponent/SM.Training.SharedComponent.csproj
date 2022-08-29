@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Entities\AssessmentTerm.cs" />
+    <Compile Remove="Entities\ftr_CommandBoxDetail.cs" />
+    <Compile Remove="Entities\ftr_CommandHOApproval.cs" />
+    <Compile Remove="Entities\ftr_TransportApproval.cs" />
+    <Compile Remove="Entities\Position.cs" />
+    <Compile Remove="Entities\ProcessTask.cs" />
+    <Compile Remove="Entities\ProcessTaskEmployee.cs" />
+    <Compile Remove="Entities\RegisterTask.cs" />
+    <Compile Remove="Entities\RegisterTaskEmployee.cs" />
+    <Compile Remove="Entities\Task.cs" />
+    <Compile Remove="Entities\TaskEmployee.cs" />
+    <Compile Remove="Entities\TaskScoring.cs" />
+    <Compile Remove="Entities\Temp_PurchaseRequisition.cs" />
+    <Compile Remove="Entities\Temp_PurchaseRequisitionDetail.cs" />
+    <Compile Remove="Entities\WageFund.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SMCB">
+      <HintPath>..\Lib\SMCB.dll</HintPath>
+    </Reference>
+    <Reference Include="SMCD">
+      <HintPath>..\Lib\SMCD.dll</HintPath>
+    </Reference>
+    <Reference Include="SMCS">
+      <HintPath>..\Lib\SMCS.dll</HintPath>
+    </Reference>
+    <Reference Include="SMCU">
+      <HintPath>..\Lib\SMCU.dll</HintPath>
+    </Reference>
+    <Reference Include="SMCW">
+      <HintPath>..\Lib\SMCW.dll</HintPath>
+    </Reference>
+    <Reference Include="SMK">
+      <HintPath>..\Lib\SMK.dll</HintPath>
+    </Reference>
+    <Reference Include="SMSN">
+      <HintPath>..\Lib\SMSN.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

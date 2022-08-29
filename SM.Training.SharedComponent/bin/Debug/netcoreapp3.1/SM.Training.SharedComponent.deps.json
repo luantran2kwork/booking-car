@@ -1,0 +1,136 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SM.Training.SharedComponent/1.0.0": {
+        "dependencies": {
+          "SMCB": "1.0.0.0",
+          "SMCD": "1.0.0.0",
+          "SMCS": "1.0.0.0",
+          "SMCU": "1.0.0.0",
+          "SMCW": "1.0.0.0",
+          "SMK": "1.0.0.0",
+          "SMSN": "1.0.0.0"
+        },
+        "runtime": {
+          "SM.Training.SharedComponent.dll": {}
+        }
+      },
+      "SMCB/1.0.0.0": {
+        "runtime": {
+          "SMCB.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SMCD/1.0.0.0": {
+        "runtime": {
+          "SMCD.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SMCS/1.0.0.0": {
+        "runtime": {
+          "SMCS.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SMCU/1.0.0.0": {
+        "runtime": {
+          "SMCU.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SMCW/1.0.0.0": {
+        "runtime": {
+          "SMCW.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SMK/1.0.0.0": {
+        "runtime": {
+          "SMK.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SMSN/1.0.0.0": {
+        "runtime": {
+          "SMSN.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SMCSM/1.0.0.0": {
+        "runtime": {
+          "SMCSM.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SM.Training.SharedComponent/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SMCB/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SMCD/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SMCS/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SMCU/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SMCW/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SMK/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SMSN/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SMCSM/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

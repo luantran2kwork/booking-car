@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Biz\UserConfigBiz.cs" />
+    <Compile Remove="Dao\UserConfigDao.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="1.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SM.Training.CommonDao\SM.Training.CommonDao.csproj" />
+    <ProjectReference Include="..\SM.Training.SharedComponent\SM.Training.SharedComponent.csproj" />
+    <ProjectReference Include="..\SM.Training.Utils\SM.Training.Utils.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SMCB">
+      <HintPath>..\Lib\SMCB.dll</HintPath>
+    </Reference>
+    <Reference Include="SMCD">
+      <HintPath>..\Lib\SMCD.dll</HintPath>
+    </Reference>
+    <Reference Include="SMCO">
+      <HintPath>..\Lib\SMCO.dll</HintPath>
+    </Reference>
+    <Reference Include="SMCU">
+      <HintPath>..\Lib\SMCU.dll</HintPath>
+    </Reference>
+    <Reference Include="SMK">
+      <HintPath>..\Lib\SMK.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
